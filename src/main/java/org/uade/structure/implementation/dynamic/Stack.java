@@ -5,7 +5,7 @@ import org.uade.structure.definition.StackADT;
 
 public class Stack implements StackADT {
 
-    Node tail;
+    private Node tail;
 
     public Stack() {
         this.tail = null;
